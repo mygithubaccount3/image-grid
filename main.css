@@ -1,0 +1,60 @@
+/*.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}*/
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    /*margin: 0 0 20px;*/
+    display: flex;
+    /*font-size: 0;*/
+    padding: 0.5rem;
+}
+
+.column {
+    /*margin: 0 1%;*/
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 .5rem;
+    box-sizing: border-box;
+}
+
+.inner-wrapper > .row > div {
+    margin: 0;
+    padding: 0;
+}
+
+.blue-yellow {
+    padding: 0;
+}
+
+.inner-wrapper > div:first-child {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.inner-wrapper > div:last-child {
+    padding-left: 0;
+    padding-top: 0;
+}
+/*
+.line {
+    display: flex;
+}
+
+!*.inner-wrapper {
+    display: flex;
+}*!
+
+.inner-wrapper {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    font-size: 0;
+    align-items: stretch;
+}
+*/
